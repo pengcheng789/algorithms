@@ -34,3 +34,8 @@ target/
 .classpath
 .project
 Servers/
+src/main/java/
+src/main/kotlin/top/pengcheng789/algorithms/find/
+src/main/resources/
+src/test/java/top/pengcheng789/algorithms/find/
+src/test/kotlin/top/pengcheng789/algorithms/find/
