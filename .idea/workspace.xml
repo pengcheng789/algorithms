@@ -833,7 +833,7 @@
       <workItem from="1503107689301" duration="17476000" />
       <workItem from="1503150886451" duration="6572000" />
       <workItem from="1503157516559" duration="223000" />
-      <workItem from="1503193538883" duration="657000" />
+      <workItem from="1503193538883" duration="910000" />
     </task>
     <task id="LOCAL-00001" summary="Organize files">
       <created>1503157698221</created>
@@ -846,7 +846,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32606000" />
+    <option name="totallyTimeSpent" value="32859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="757" width="1311" height="780" extended-state="6" />
