@@ -4,7 +4,7 @@ import java.lang.reflect.Array;
 import java.util.*;
 
 /**
- * @autor pen
+ * @author pen
  */
 public class HashMap<K, V> implements Map<K, V> {
 
