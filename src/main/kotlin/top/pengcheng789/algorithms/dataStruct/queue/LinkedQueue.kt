@@ -1,4 +1,6 @@
-package top.pengcheng789.algorithms.dataStruct
+package top.pengcheng789.algorithms.dataStruct.queue
+
+import top.pengcheng789.algorithms.dataStruct.Node
 
 /**
  * CreateDate:2017-08-19

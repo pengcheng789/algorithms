@@ -1,5 +1,8 @@
 package top.pengcheng789.algorithms.dataStruct
 
+import top.pengcheng789.algorithms.dataStruct.queue.LinkedQueue
+import top.pengcheng789.algorithms.dataStruct.queue.Queue
+
 /**
  * CreateDate:2017-08-19
  *

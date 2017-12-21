@@ -1,5 +1,8 @@
 package top.pengcheng789.algorithms.dataStruct
 
+import top.pengcheng789.algorithms.dataStruct.bag.Bag
+import top.pengcheng789.algorithms.dataStruct.bag.LinkedBag
+
 /**
  * CreateDate:2017-08-19
  *

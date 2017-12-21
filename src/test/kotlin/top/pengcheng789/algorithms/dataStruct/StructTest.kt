@@ -1,5 +1,8 @@
 package top.pengcheng789.algorithms.dataStruct
 
+import top.pengcheng789.algorithms.dataStruct.stack.LinkedStack
+import top.pengcheng789.algorithms.dataStruct.stack.Stack
+
 /**
  * CreateDate:2017-08-19
  *

@@ -1,18 +1,16 @@
-package top.pengcheng789.algorithms.dataStruct
+package top.pengcheng789.algorithms.dataStruct.bag
 
 /**
  * CreateDate:2017-08-19
  *
  * @author pen
  */
-abstract class Stack<T> {
+abstract class Bag<T> {
 
     var size = 0
         protected set
 
-    abstract fun push(value: T)
-
-    abstract fun pop(): T
+    abstract fun add(value: T)
 
     abstract fun getByIndex(index: Int): T
 
