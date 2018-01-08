@@ -20,20 +20,19 @@ package top.pengcheng789.algorithms.sort
  *
  * @author pen
  */
-interface Sort<T: Comparable<T>> {
+class LoopInsertionSort<T: Comparable<T>>: Sort<T> {
 
-    fun sort(list: MutableList<T>)
-
-    fun isSorted(list: MutableList<T>): Boolean {
-        (1 until list.size).map {
-            if (list[it] < list[it-1]) return false
+    override fun sort(list: MutableList<T>) {
+        (1 until list.size).forEach {
+            var i = it
+            while(i >= 1) {
+                if (list[i] < list[i - 1]) {
+                    swap(list, i, i - 1)
+                    i -= 1
+                } else {
+                    break
+                }
+            }
         }
-        return true
-    }
-
-    fun swap(list: MutableList<T>, i: Int, j: Int) {
-        val t = list[i]
-        list[i] = list[j]
-        list[j] = t
     }
 }

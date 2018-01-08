@@ -5,6 +5,10 @@
 
 ## Update
 
+### 20180108
+
+* Add quick sort algorithms.
+
 ### 20180106
 * Add shell sort, insertion sort and bubble sort.
 * Improve sort test tool.

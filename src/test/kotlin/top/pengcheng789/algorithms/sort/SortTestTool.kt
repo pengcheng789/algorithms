@@ -60,9 +60,9 @@ class SortTestTool {
         println("Generating data list ...")
 
         val dataList = ArrayList<List<Int>>()
-        var i = 1000
+        var i = 1_000
 
-        while (i <= 128000) {
+        while (i <= 4_096_000) {
             val list = mutableListOf<Int>()
             (1..i).forEach {
                 list.add(getRandom(1_000_000, 0))

@@ -20,20 +20,29 @@ package top.pengcheng789.algorithms.sort
  *
  * @author pen
  */
-interface Sort<T: Comparable<T>> {
+class LoopBubbleSort<T: Comparable<T>>: Sort<T> {
 
-    fun sort(list: MutableList<T>)
+    override fun sort(list: MutableList<T>) {
+        var exchanged = false
+        var startIndex = 0
 
-    fun isSorted(list: MutableList<T>): Boolean {
-        (1 until list.size).map {
-            if (list[it] < list[it-1]) return false
+        while (startIndex < list.size - 1) {
+            var i = list.size - 1
+            while (i > startIndex) {
+                if (list[i] < list[i - 1]) {
+                    swap(list, i , i - 1)
+                    exchanged = true
+                }
+
+                i--
+            }
+
+            if (exchanged) {
+                startIndex++
+            } else {
+                return
+            }
         }
-        return true
     }
 
-    fun swap(list: MutableList<T>, i: Int, j: Int) {
-        val t = list[i]
-        list[i] = list[j]
-        list[j] = t
-    }
 }
