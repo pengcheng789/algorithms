@@ -46,7 +46,7 @@ class RecursiveQuickSort<T: Comparable<T>>: Sort<T> {
 
     private fun recursiveSort(list: MutableList<T>, left: Int, right: Int) {
         if (left < right) {
-            val pivotIndex = (left + right) / 2
+            val pivotIndex = (left + right) shr 1
             val pivotNewIndex = partition(list, left, right, pivotIndex)
             recursiveSort(list, left, pivotNewIndex - 1)
             recursiveSort(list, pivotNewIndex + 1, right)

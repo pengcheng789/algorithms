@@ -5,6 +5,10 @@
 
 ## Update
 
+### 20180111
+
+* Add merge sort algorithms.
+
 ### 20180108
 
 * Add quick sort algorithms.

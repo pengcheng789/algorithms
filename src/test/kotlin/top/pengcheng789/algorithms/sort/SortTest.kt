@@ -6,7 +6,7 @@ package top.pengcheng789.algorithms.sort
  */
 fun main(args: Array<String>) {
     SortTestTool(listOf(RecursiveShellSort(),
-        LoopShellSort(),
         RecursiveQuickSort(),
-        LoopQuickSort())).highMode()
+        RecursiveMergeSort())).highMode()
+//    SortTestTool(listOf(RecursiveMergeSort(), RecursiveQuickSort())).normalMode(10)
 }

@@ -33,7 +33,7 @@ class LoopQuickSort<T: Comparable<T>>: Sort<T> {
 
         do {
             val range = stack.pop()
-            val pivotIndex = (range[0] + range[1]) / 2
+            val pivotIndex = (range[0] + range[1]) shr 1
             val pivotNewIndex = partition(list, range[0], range[1], pivotIndex)
 
             if (range[0] < pivotNewIndex - 1) {
